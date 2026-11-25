@@ -1,0 +1,39 @@
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Dependencies, build output, and caches
+node_modules/
+dist/
+build/
+coverage/
+.angular/
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor, platform, and submission metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.workspace-submit.json
+
+# Artifacts kept outside the repository
+*.h5
+*.hdf5
+*.keras
+
+# Private course artifacts
+*.h5
+*.keras
+*.ipynb
+/test_images/
+/assets/
